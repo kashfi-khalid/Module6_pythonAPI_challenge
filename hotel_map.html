@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_03e57c94895984c336162ddc8d24f6ea {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_03e57c94895984c336162ddc8d24f6ea" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_03e57c94895984c336162ddc8d24f6ea = L.map(
+                "map_03e57c94895984c336162ddc8d24f6ea",
+                {
+                    center: [15.1355, 145.701],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_afbe8e19f80abb096a888c0cf69df6da = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+                tile_layer_afbe8e19f80abb096a888c0cf69df6da.addTo(map_03e57c94895984c336162ddc8d24f6ea);
+    
+            var circle_marker_80bc185f9c46fdae325a29b2dc6c5f03 = L.circleMarker(
+                [13.2154, 18.3353],
+                {"bubblingMouseEvents": true, "color": "#d6a6a1", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#d6a6a1", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_ba68945938bb3a1e08057986272e8535 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0fa26e74d549bf80d8f81c876c746b53 = $(`<div id="html_0fa26e74d549bf80d8f81c876c746b53" style="width: 100.0%; height: 100.0%;">Lng:18.3353 Lat:13.2154 City:ati Humidity:18% Hotel Name:No hotel found Country:TD</div>`)[0];
+                popup_ba68945938bb3a1e08057986272e8535.setContent(html_0fa26e74d549bf80d8f81c876c746b53);
+            
+        
+
+        circle_marker_80bc185f9c46fdae325a29b2dc6c5f03.bindPopup(popup_ba68945938bb3a1e08057986272e8535)
+        ;
+
+        
+    
+    
+            var circle_marker_ddce5f6cbdfb430e3f269843bf7d932a = L.circleMarker(
+                [11.3474, 162.3373],
+                {"bubblingMouseEvents": true, "color": "#c81da8", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c81da8", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_b3cc14738b3cb2bd4761d700dd84929c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05a24e66f67fd12532f82d863765bd1a = $(`<div id="html_05a24e66f67fd12532f82d863765bd1a" style="width: 100.0%; height: 100.0%;">Lng:162.3373 Lat:11.3474 City:enewetak Humidity:75% Hotel Name:No hotel found Country:MH</div>`)[0];
+                popup_b3cc14738b3cb2bd4761d700dd84929c.setContent(html_05a24e66f67fd12532f82d863765bd1a);
+            
+        
+
+        circle_marker_ddce5f6cbdfb430e3f269843bf7d932a.bindPopup(popup_b3cc14738b3cb2bd4761d700dd84929c)
+        ;
+
+        
+    
+    
+            var circle_marker_5d314e1491233e99419059cc2e94cbfa = L.circleMarker(
+                [10.2753, 170.8646],
+                {"bubblingMouseEvents": true, "color": "#800b9c", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#800b9c", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_2e155770aafaaa04619aa83491354f69 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95940fb011516b504afa69e0c9c9df5d = $(`<div id="html_95940fb011516b504afa69e0c9c9df5d" style="width: 100.0%; height: 100.0%;">Lng:170.8646 Lat:10.2753 City:mejit Humidity:78% Hotel Name:No hotel found Country:MH</div>`)[0];
+                popup_2e155770aafaaa04619aa83491354f69.setContent(html_95940fb011516b504afa69e0c9c9df5d);
+            
+        
+
+        circle_marker_5d314e1491233e99419059cc2e94cbfa.bindPopup(popup_2e155770aafaaa04619aa83491354f69)
+        ;
+
+        
+    
+    
+            var circle_marker_872f1b4eec9b938f24c390452eeed116 = L.circleMarker(
+                [-28.4606, -62.8347],
+                {"bubblingMouseEvents": true, "color": "#013835", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#013835", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_c116218e60d1750a652bf38e1be24764 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa1637050b38bdf12d90b392524eb8e7 = $(`<div id="html_fa1637050b38bdf12d90b392524eb8e7" style="width: 100.0%; height: 100.0%;">Lng:-62.8347 Lat:-28.4606 City:anatuya Humidity:43% Hotel Name:Hotel Santa Rita Country:AR</div>`)[0];
+                popup_c116218e60d1750a652bf38e1be24764.setContent(html_fa1637050b38bdf12d90b392524eb8e7);
+            
+        
+
+        circle_marker_872f1b4eec9b938f24c390452eeed116.bindPopup(popup_c116218e60d1750a652bf38e1be24764)
+        ;
+
+        
+    
+    
+            var circle_marker_ee5136cfadd8685d1554e6dea44bb39b = L.circleMarker(
+                [5.921, 169.6434],
+                {"bubblingMouseEvents": true, "color": "#4586d6", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4586d6", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_b4ed795bb23f992230928f57cbe22a92 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00c4f980ef0eb5e8c2d08c2bd92155d3 = $(`<div id="html_00c4f980ef0eb5e8c2d08c2bd92155d3" style="width: 100.0%; height: 100.0%;">Lng:169.6434 Lat:5.921 City:jabor Humidity:82% Hotel Name:No hotel found Country:MH</div>`)[0];
+                popup_b4ed795bb23f992230928f57cbe22a92.setContent(html_00c4f980ef0eb5e8c2d08c2bd92155d3);
+            
+        
+
+        circle_marker_ee5136cfadd8685d1554e6dea44bb39b.bindPopup(popup_b4ed795bb23f992230928f57cbe22a92)
+        ;
+
+        
+    
+    
+            var circle_marker_3fdffdf5575766c2c8994ab41073b2c0 = L.circleMarker(
+                [-9.3852, -171.2468],
+                {"bubblingMouseEvents": true, "color": "#4b6945", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4b6945", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_76b61205de6ed32b418c4510df3c6d3e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_839c0dabb012c6a1a02cc182474ce8e0 = $(`<div id="html_839c0dabb012c6a1a02cc182474ce8e0" style="width: 100.0%; height: 100.0%;">Lng:-171.2468 Lat:-9.3852 City:fale old settlement Humidity:78% Hotel Name:No hotel found Country:TK</div>`)[0];
+                popup_76b61205de6ed32b418c4510df3c6d3e.setContent(html_839c0dabb012c6a1a02cc182474ce8e0);
+            
+        
+
+        circle_marker_3fdffdf5575766c2c8994ab41073b2c0.bindPopup(popup_76b61205de6ed32b418c4510df3c6d3e)
+        ;
+
+        
+    
+    
+            var circle_marker_9dd666bb72d78a2647395ed8f926c35b = L.circleMarker(
+                [11.2278, 169.8474],
+                {"bubblingMouseEvents": true, "color": "#0b77ec", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#0b77ec", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_4a41a09bd8c885428108643b6ac3f6f8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f25cc1fbdf28a38e80e9bf2d0621df19 = $(`<div id="html_f25cc1fbdf28a38e80e9bf2d0621df19" style="width: 100.0%; height: 100.0%;">Lng:169.8474 Lat:11.2278 City:utrik Humidity:74% Hotel Name:No hotel found Country:MH</div>`)[0];
+                popup_4a41a09bd8c885428108643b6ac3f6f8.setContent(html_f25cc1fbdf28a38e80e9bf2d0621df19);
+            
+        
+
+        circle_marker_9dd666bb72d78a2647395ed8f926c35b.bindPopup(popup_4a41a09bd8c885428108643b6ac3f6f8)
+        ;
+
+        
+    
+    
+            var circle_marker_fe3a0a084662d6cc09c1a8c5de14a390 = L.circleMarker(
+                [-0.9, -89.6],
+                {"bubblingMouseEvents": true, "color": "#3c7082", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c7082", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_55339ec4d11bf6fc38a77e8679f3c5d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_666ac5309a2196cda9701e51801b5913 = $(`<div id="html_666ac5309a2196cda9701e51801b5913" style="width: 100.0%; height: 100.0%;">Lng:-89.6 Lat:-0.9 City:puerto baquerizo moreno Humidity:79% Hotel Name:Dory's House Country:EC</div>`)[0];
+                popup_55339ec4d11bf6fc38a77e8679f3c5d5.setContent(html_666ac5309a2196cda9701e51801b5913);
+            
+        
+
+        circle_marker_fe3a0a084662d6cc09c1a8c5de14a390.bindPopup(popup_55339ec4d11bf6fc38a77e8679f3c5d5)
+        ;
+
+        
+    
+    
+            var circle_marker_f8f9968f438c9d93fc14585ceb8ec738 = L.circleMarker(
+                [10.3997, -75.5144],
+                {"bubblingMouseEvents": true, "color": "#77d226", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#77d226", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_0ae1933e3793a2a9f7f1c0e1b063da8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc1a70fe36179eedeccf0827b82985e1 = $(`<div id="html_bc1a70fe36179eedeccf0827b82985e1" style="width: 100.0%; height: 100.0%;">Lng:-75.5144 Lat:10.3997 City:cartagena Humidity:66% Hotel Name:Hotel Bellamar Country:CO</div>`)[0];
+                popup_0ae1933e3793a2a9f7f1c0e1b063da8f.setContent(html_bc1a70fe36179eedeccf0827b82985e1);
+            
+        
+
+        circle_marker_f8f9968f438c9d93fc14585ceb8ec738.bindPopup(popup_0ae1933e3793a2a9f7f1c0e1b063da8f)
+        ;
+
+        
+    
+    
+            var circle_marker_58e44f51398a567ee08b36e4dbc7c25b = L.circleMarker(
+                [11.1635, 166.8941],
+                {"bubblingMouseEvents": true, "color": "#b7e1a7", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#b7e1a7", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_e9470817f65d717da3761a78d63bf339 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cf1550eefa313c0e13ed61df9cc67ffd = $(`<div id="html_cf1550eefa313c0e13ed61df9cc67ffd" style="width: 100.0%; height: 100.0%;">Lng:166.8941 Lat:11.1635 City:rongelap Humidity:77% Hotel Name:No hotel found Country:MH</div>`)[0];
+                popup_e9470817f65d717da3761a78d63bf339.setContent(html_cf1550eefa313c0e13ed61df9cc67ffd);
+            
+        
+
+        circle_marker_58e44f51398a567ee08b36e4dbc7c25b.bindPopup(popup_e9470817f65d717da3761a78d63bf339)
+        ;
+
+        
+    
+    
+            var circle_marker_7ad128ea50d6c06675dcdcbc9214345d = L.circleMarker(
+                [-8.0089, -34.8553],
+                {"bubblingMouseEvents": true, "color": "#f0a7a9", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#f0a7a9", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_d1ef7de4feceaf28d083e4a19ff26dfb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95caa7e9ee709a0831421821bc4836f4 = $(`<div id="html_95caa7e9ee709a0831421821bc4836f4" style="width: 100.0%; height: 100.0%;">Lng:-34.8553 Lat:-8.0089 City:olinda Humidity:74% Hotel Name:Fidji Motel Country:BR</div>`)[0];
+                popup_d1ef7de4feceaf28d083e4a19ff26dfb.setContent(html_95caa7e9ee709a0831421821bc4836f4);
+            
+        
+
+        circle_marker_7ad128ea50d6c06675dcdcbc9214345d.bindPopup(popup_d1ef7de4feceaf28d083e4a19ff26dfb)
+        ;
+
+        
+    
+    
+            var circle_marker_fe2f24901f981164d0fa895f81d686c2 = L.circleMarker(
+                [4.9167, -52.2667],
+                {"bubblingMouseEvents": true, "color": "#3c7a2b", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3c7a2b", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_6d7d2b69261e8487196a4d5824848533 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9afaaa624a2601bc9a33948fb6825f1 = $(`<div id="html_f9afaaa624a2601bc9a33948fb6825f1" style="width: 100.0%; height: 100.0%;">Lng:-52.2667 Lat:4.9167 City:remire-montjoly Humidity:70% Hotel Name:Complexe Belova Country:GF</div>`)[0];
+                popup_6d7d2b69261e8487196a4d5824848533.setContent(html_f9afaaa624a2601bc9a33948fb6825f1);
+            
+        
+
+        circle_marker_fe2f24901f981164d0fa895f81d686c2.bindPopup(popup_6d7d2b69261e8487196a4d5824848533)
+        ;
+
+        
+    
+    
+            var circle_marker_bb757fadbc580a970d5ae7a38e3d8e5c = L.circleMarker(
+                [-17.75, -149.2833],
+                {"bubblingMouseEvents": true, "color": "#9ba715", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#9ba715", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_ef8b2d4dbf9aa3417ccb83f43d0b41de = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03f99d73aa6f3d6b1b95a09efdc718e7 = $(`<div id="html_03f99d73aa6f3d6b1b95a09efdc718e7" style="width: 100.0%; height: 100.0%;">Lng:-149.2833 Lat:-17.75 City:afaahiti Humidity:82% Hotel Name:Omati Lodge Country:PF</div>`)[0];
+                popup_ef8b2d4dbf9aa3417ccb83f43d0b41de.setContent(html_03f99d73aa6f3d6b1b95a09efdc718e7);
+            
+        
+
+        circle_marker_bb757fadbc580a970d5ae7a38e3d8e5c.bindPopup(popup_ef8b2d4dbf9aa3417ccb83f43d0b41de)
+        ;
+
+        
+    
+    
+            var circle_marker_6634d26291bef05462452ae4958d5cb6 = L.circleMarker(
+                [-33.1325, -58.2956],
+                {"bubblingMouseEvents": true, "color": "#adf1bf", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#adf1bf", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_41ff4780cdbe7a0fd9f3300bdf78cd45 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fc7d2847d35deee6ec6df412413ad2a = $(`<div id="html_7fc7d2847d35deee6ec6df412413ad2a" style="width: 100.0%; height: 100.0%;">Lng:-58.2956 Lat:-33.1325 City:fray bentos Humidity:31% Hotel Name:Plaza Hotel Country:UY</div>`)[0];
+                popup_41ff4780cdbe7a0fd9f3300bdf78cd45.setContent(html_7fc7d2847d35deee6ec6df412413ad2a);
+            
+        
+
+        circle_marker_6634d26291bef05462452ae4958d5cb6.bindPopup(popup_41ff4780cdbe7a0fd9f3300bdf78cd45)
+        ;
+
+        
+    
+    
+            var circle_marker_daf1b993db6861a382d0246c860e9784 = L.circleMarker(
+                [-36.3132, -57.6792],
+                {"bubblingMouseEvents": true, "color": "#61b260", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#61b260", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_eb166c23070b114e10acb971a446c899 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74d39475fc826b3b385801541accc0ce = $(`<div id="html_74d39475fc826b3b385801541accc0ce" style="width: 100.0%; height: 100.0%;">Lng:-57.6792 Lat:-36.3132 City:dolores Humidity:39% Hotel Name:Plaza Hotel Country:AR</div>`)[0];
+                popup_eb166c23070b114e10acb971a446c899.setContent(html_74d39475fc826b3b385801541accc0ce);
+            
+        
+
+        circle_marker_daf1b993db6861a382d0246c860e9784.bindPopup(popup_eb166c23070b114e10acb971a446c899)
+        ;
+
+        
+    
+    
+            var circle_marker_af6b2162c76e82be94339d346c5267be = L.circleMarker(
+                [-3.41, -39.0306],
+                {"bubblingMouseEvents": true, "color": "#245f2d", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#245f2d", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_b91b54116ea060a56e0e7250a670af96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c10d27dcb91ecc1e57558ec8185fcffe = $(`<div id="html_c10d27dcb91ecc1e57558ec8185fcffe" style="width: 100.0%; height: 100.0%;">Lng:-39.0306 Lat:-3.41 City:paracuru Humidity:73% Hotel Name:Vento Brasil Country:BR</div>`)[0];
+                popup_b91b54116ea060a56e0e7250a670af96.setContent(html_c10d27dcb91ecc1e57558ec8185fcffe);
+            
+        
+
+        circle_marker_af6b2162c76e82be94339d346c5267be.bindPopup(popup_b91b54116ea060a56e0e7250a670af96)
+        ;
+
+        
+    
+    
+            var circle_marker_8495af1272287cc41c7fb698533c0d99 = L.circleMarker(
+                [-14.2336, -169.5144],
+                {"bubblingMouseEvents": true, "color": "#637f03", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#637f03", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_371723f303458645653276566f24cd23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23beb84a43ce20aa01c65a982d03d3de = $(`<div id="html_23beb84a43ce20aa01c65a982d03d3de" style="width: 100.0%; height: 100.0%;">Lng:-169.5144 Lat:-14.2336 City:ta\`u Humidity:84% Hotel Name:No hotel found Country:AS</div>`)[0];
+                popup_371723f303458645653276566f24cd23.setContent(html_23beb84a43ce20aa01c65a982d03d3de);
+            
+        
+
+        circle_marker_8495af1272287cc41c7fb698533c0d99.bindPopup(popup_371723f303458645653276566f24cd23)
+        ;
+
+        
+    
+    
+            var circle_marker_c9d714d0c731e658771ee9be37971c69 = L.circleMarker(
+                [5.6667, 73.0],
+                {"bubblingMouseEvents": true, "color": "#009854", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#009854", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_6e75e34fef8b68c99de4d413b532173e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec564cf0e39a89aa067b1609bec7e569 = $(`<div id="html_ec564cf0e39a89aa067b1609bec7e569" style="width: 100.0%; height: 100.0%;">Lng:73.0 Lat:5.6667 City:ugoofaaru Humidity:79% Hotel Name:No hotel found Country:MV</div>`)[0];
+                popup_6e75e34fef8b68c99de4d413b532173e.setContent(html_ec564cf0e39a89aa067b1609bec7e569);
+            
+        
+
+        circle_marker_c9d714d0c731e658771ee9be37971c69.bindPopup(popup_6e75e34fef8b68c99de4d413b532173e)
+        ;
+
+        
+    
+    
+            var circle_marker_f0a192f5e8359b1adb3a4a01a800caf6 = L.circleMarker(
+                [8.7058, 171.2275],
+                {"bubblingMouseEvents": true, "color": "#4a62ad", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#4a62ad", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_5008f50506ec2555ef71acc41e776a3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35676a3d7ce7c9ba57c0dec9d6e1dd6f = $(`<div id="html_35676a3d7ce7c9ba57c0dec9d6e1dd6f" style="width: 100.0%; height: 100.0%;">Lng:171.2275 Lat:8.7058 City:taroa Humidity:79% Hotel Name:No hotel found Country:MH</div>`)[0];
+                popup_5008f50506ec2555ef71acc41e776a3a.setContent(html_35676a3d7ce7c9ba57c0dec9d6e1dd6f);
+            
+        
+
+        circle_marker_f0a192f5e8359b1adb3a4a01a800caf6.bindPopup(popup_5008f50506ec2555ef71acc41e776a3a)
+        ;
+
+        
+    
+    
+            var circle_marker_c920ff734b0e6abfb5da736110d8a2e3 = L.circleMarker(
+                [-18.0667, 44.0167],
+                {"bubblingMouseEvents": true, "color": "#60e5d9", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#60e5d9", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_3f91ffb33d7468f049da72de0000b68a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a4d119dd3f6b7d12c926e21181c8574 = $(`<div id="html_9a4d119dd3f6b7d12c926e21181c8574" style="width: 100.0%; height: 100.0%;">Lng:44.0167 Lat:-18.0667 City:maintirano Humidity:77% Hotel Name:Hotel Safari Country:MG</div>`)[0];
+                popup_3f91ffb33d7468f049da72de0000b68a.setContent(html_9a4d119dd3f6b7d12c926e21181c8574);
+            
+        
+
+        circle_marker_c920ff734b0e6abfb5da736110d8a2e3.bindPopup(popup_3f91ffb33d7468f049da72de0000b68a)
+        ;
+
+        
+    
+    
+            var circle_marker_5dfe756d9cd2a189aaa9bae6d63b242d = L.circleMarker(
+                [18.4167, -64.6167],
+                {"bubblingMouseEvents": true, "color": "#787992", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#787992", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_3efd750241eb0c666756cf868717ba91 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ec112be342be0a7dee7113b3da55cda = $(`<div id="html_4ec112be342be0a7dee7113b3da55cda" style="width: 100.0%; height: 100.0%;">Lng:-64.6167 Lat:18.4167 City:road town Humidity:65% Hotel Name:Sea View Hotel Country:VG</div>`)[0];
+                popup_3efd750241eb0c666756cf868717ba91.setContent(html_4ec112be342be0a7dee7113b3da55cda);
+            
+        
+
+        circle_marker_5dfe756d9cd2a189aaa9bae6d63b242d.bindPopup(popup_3efd750241eb0c666756cf868717ba91)
+        ;
+
+        
+    
+    
+            var circle_marker_05bc1c42f58d31fb2af449bddd535d62 = L.circleMarker(
+                [11.0817, -63.9655],
+                {"bubblingMouseEvents": true, "color": "#041934", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#041934", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_2ca9e1a957b88b217ad8f95ee7b4e8d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0869de457324c1a2ea46c8161161295b = $(`<div id="html_0869de457324c1a2ea46c8161161295b" style="width: 100.0%; height: 100.0%;">Lng:-63.9655 Lat:11.0817 City:juan griego Humidity:70% Hotel Name:Hotel Descanso Tropical Country:VE</div>`)[0];
+                popup_2ca9e1a957b88b217ad8f95ee7b4e8d7.setContent(html_0869de457324c1a2ea46c8161161295b);
+            
+        
+
+        circle_marker_05bc1c42f58d31fb2af449bddd535d62.bindPopup(popup_2ca9e1a957b88b217ad8f95ee7b4e8d7)
+        ;
+
+        
+    
+    
+            var circle_marker_3dda37cf202fd7e0e2884aff05c1dfaf = L.circleMarker(
+                [21.4612, -71.1419],
+                {"bubblingMouseEvents": true, "color": "#c97145", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#c97145", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_ff686faf1e5ac558c099ba9d1ba6d547 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_434235a327e71414ecbe45ccd1da5a56 = $(`<div id="html_434235a327e71414ecbe45ccd1da5a56" style="width: 100.0%; height: 100.0%;">Lng:-71.1419 Lat:21.4612 City:cockburn town Humidity:74% Hotel Name:The Salt Raker Inn Country:TC</div>`)[0];
+                popup_ff686faf1e5ac558c099ba9d1ba6d547.setContent(html_434235a327e71414ecbe45ccd1da5a56);
+            
+        
+
+        circle_marker_3dda37cf202fd7e0e2884aff05c1dfaf.bindPopup(popup_ff686faf1e5ac558c099ba9d1ba6d547)
+        ;
+
+        
+    
+    
+            var circle_marker_5bab6e81be5325c6a3d30b9dafc6172e = L.circleMarker(
+                [12.7314, -86.124],
+                {"bubblingMouseEvents": true, "color": "#6b1107", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#6b1107", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_a9cee3f6b9f9d3f33e63e3854f190ec3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e749b69ae0ccd6ef77001a1ffbdfddae = $(`<div id="html_e749b69ae0ccd6ef77001a1ffbdfddae" style="width: 100.0%; height: 100.0%;">Lng:-86.124 Lat:12.7314 City:ciudad dario Humidity:61% Hotel Name:No hotel found Country:NI</div>`)[0];
+                popup_a9cee3f6b9f9d3f33e63e3854f190ec3.setContent(html_e749b69ae0ccd6ef77001a1ffbdfddae);
+            
+        
+
+        circle_marker_5bab6e81be5325c6a3d30b9dafc6172e.bindPopup(popup_a9cee3f6b9f9d3f33e63e3854f190ec3)
+        ;
+
+        
+    
+    
+            var circle_marker_e4e700e702c916fe8f3ebcbb4c850015 = L.circleMarker(
+                [3.8488, 47.1806],
+                {"bubblingMouseEvents": true, "color": "#94ccfd", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#94ccfd", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5, "stroke": true, "weight": 3}
+            ).addTo(map_03e57c94895984c336162ddc8d24f6ea);
+        
+    
+        var popup_5f3ce176c3670efb3c18811b0ec0bd42 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_00e41e6b936e1c3e23f81e6b1ca0c2f5 = $(`<div id="html_00e41e6b936e1c3e23f81e6b1ca0c2f5" style="width: 100.0%; height: 100.0%;">Lng:47.1806 Lat:3.8488 City:ceeldheer Humidity:74% Hotel Name:No hotel found Country:SO</div>`)[0];
+                popup_5f3ce176c3670efb3c18811b0ec0bd42.setContent(html_00e41e6b936e1c3e23f81e6b1ca0c2f5);
+            
+        
+
+        circle_marker_e4e700e702c916fe8f3ebcbb4c850015.bindPopup(popup_5f3ce176c3670efb3c18811b0ec0bd42)
+        ;
+
+        
+    
+</script>
+</html>
